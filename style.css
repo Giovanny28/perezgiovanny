@@ -13,7 +13,7 @@ body {
 .container {
   background: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
   padding: 30px; /* Espacio interno alrededor del contenido */
-  border-radius: 15px; /* Bordes redondeados */
+  border-radius: 30px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
   max-width: 500px; /* No supera los 500px de ancho */
   box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
@@ -25,8 +25,8 @@ h1 {
 }
 
 #quote {
-  font-size: 18px; /* Tamaño de letra de las citas */
-  margin: 20px 0; /* Espacio arriba y abajo */
+  font-size: 30px; /* Tamaño de letra de las citas */
+  margin: 25px 0; /* Espacio arriba y abajo */
   min-height: 60px; /* Altura mínima para evitar que el cuadro cambie de tamaño cuando cambia el texto */
 }
 
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #FDD835; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 
