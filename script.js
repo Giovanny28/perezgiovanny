@@ -7,14 +7,14 @@ const citas = [
   "Leia Organa.",
   "Darth Vader.",
   "R2-D2.",
-  "C-3PO",
-  "Palpatine",
-  "Din Djarin",
-  "Grogu",
-  "Ahsoka Tano",
-  "Darth Maul",
-  "Chewbacca",
-  "Han Solo",
+  "C-3PO.",
+  "Palpatine.",
+  "Din Djarin.",
+  "Grogu.",
+  "Ahsoka Tano.",
+  "Darth Maul.",
+  "Chewbacca.",
+  "Han Solo.",
 ];
 
 // Definimos la función que mostrará una cita aleatoria
@@ -29,6 +29,7 @@ function generarCita() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
 }
+
 
 
 
