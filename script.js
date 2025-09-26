@@ -1,5 +1,5 @@
 // Declaramos un arreglo (array) con varias frases motivacionales
-const nombres = [
+const nombre = [
   "Anakin Skywalker",
   "Obi Wan Kenobi",
   "Padme Amidala",
@@ -31,6 +31,7 @@ function generarNombre() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = nombre[indice];
 }
+
 
 
 
