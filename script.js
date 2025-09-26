@@ -34,8 +34,9 @@ function generarCita() {
 let contador = 0;
 function contarClics() {
   contador++;
-  document.getElementById("contador").innerText = "Citas mostradas: " + contador;
+  document.getElementById("contador").innerText = "Nombres Mostrados: " + contador;
 }
+
 
 
 
