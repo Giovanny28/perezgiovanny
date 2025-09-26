@@ -1,20 +1,35 @@
 // Declaramos un arreglo (array) con varias frases motivacionales
 const citas = [
-  "Anakin Skywalker.",
-  "Obi Wan Kenobi.",
-  "Padme Amidala.",
-  "Luke Skywalker.",
-  "Leia Organa.",
-  "Darth Vader.",
-  "R2-D2.",
-  "C-3PO.",
-  "Palpatine.",
-  "Din Djarin.",
-  "Grogu.",
-  "Ahsoka Tano.",
-  "Darth Maul.",
-  "Chewbacca.",
-  "Han Solo.",
+  "Anakin Skywalker",
+  "Obi Wan Kenobi",
+  "Padme Amidala",
+  "Luke Skywalker",
+  "Leia Organa",
+  "Darth Vader",
+  "R2-D2",
+  "C-3PO",
+  "Palpatine",
+  "Din Djarin",
+  "Grogu",
+  "Ahsoka Tano",
+  "Darth Maul",
+  "Chewbacca",
+  "Han Solo",
+  "Mace Windu",
+  "Qui-Gon Jim",
+  "Yoda",
+  "Conde Dooku",
+  "General Grievous",
+  "Jango Fett",
+  "Boba Fett",
+  "Lando Calrissian",
+  "Kit Fisto",
+  "Plo Koon",
+  "Shaak Ti",
+  "Barriss Offee",
+  "Cad Bane",
+  "Cassian Andor",
+  "Cal Kestis",
 ];
 
 // Definimos la función que mostrará una cita aleatoria
@@ -36,6 +51,7 @@ function contarClics() {
   contador++;
   document.getElementById("contador").innerText = "Nombres Mostrados: " + contador;
 }
+
 
 
 
