@@ -1,12 +1,12 @@
 // Declaramos un arreglo (array) con varias frases motivacionales
 const citas = [
-  "Anakin Skywalker",
-  "Obi Wan Kenobi",
-  "Padme Amidala",
-  "Luke Skywalker",
+  "Anakin Skywalker.",
+  "Obi Wan Kenobi.",
+  "Padme Amidala.",
+  "Luke Skywalker.",
   "Leia Organa.",
-  "Darth Vader",
-  "R2-D2",
+  "Darth Vader.",
+  "R2-D2.",
 ];
 
 // Definimos la función que mostrará una cita aleatoria
@@ -21,4 +21,5 @@ function generarCita() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
 }
+
 
