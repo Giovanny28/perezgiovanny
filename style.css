@@ -1,5 +1,5 @@
 body {
-  font-family: Papyrus, sans-serif; /* Fuente de texto de toda la página */
+  font-family: Papyrus, Poor Richard; /* Fuente de texto de toda la página */
   background: linear-gradient(135deg, #8B0000, #000000); /* Fondo degradado diagonal */
   color: #fff; /* Color de texto blanco */
   text-align: center; /* Centra el texto horizontalmente */
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #FDD835; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 
