@@ -1,5 +1,5 @@
 body {
-  font-family: Casterall, sans-serif; /* Fuente de texto de toda la página */
+  font-family: ADLaM Display, sans-serif; /* Fuente de texto de toda la página */
   background: linear-gradient(135deg, #66cc00, #2575fc); /* Fondo degradado diagonal */
   color: #fff; /* Color de texto blanco */
   text-align: center; /* Centra el texto horizontalmente */
@@ -43,4 +43,5 @@ button {
 button:hover {
   background: #e68900; /* Color más oscuro al pasar el mouse */
 }
+
 
