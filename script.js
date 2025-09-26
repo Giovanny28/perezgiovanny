@@ -1,12 +1,12 @@
 // Declaramos un arreglo (array) con varias frases motivacionales
 const citas = [
-  "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
-  "Nunca es tarde para aprender algo nuevo.",
-  "El futuro pertenece a quienes creen en la belleza de sus sueños.",
-  "La programación no se aprende en un día, se construye con paciencia.",
-  "No te rindas, el inicio siempre es lo más difícil.",
-  "Cada error es una oportunidad para mejorar.",
-  "El conocimiento es poder, pero la práctica lo transforma en sabiduría."
+  "Anakin Skywalker",
+  "Obi Wan Kenobi",
+  "Padme Amidala",
+  "Luke Skywalker",
+  "Leia Organa.",
+  "Darth Vader",
+  "R2-D2",
 ];
 
 // Definimos la función que mostrará una cita aleatoria
@@ -21,3 +21,4 @@ function generarCita() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
 }
+
