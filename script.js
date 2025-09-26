@@ -28,8 +28,14 @@ function generarCita() {
   // Buscamos en el documento el elemento con id="quote"
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
+  // Cada vez que generamos una cita, aumentamos el contador
+  contarClics();
 }
-
+let contador = 0;
+function contarClics() {
+  contador++;
+  document.getElementById("contador").innerText = "Citas mostradas: " + contador;
+}
 
 
 
