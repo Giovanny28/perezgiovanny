@@ -29,6 +29,12 @@ function generarCita() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = citas[indice];
 }
+let contador = 0;
+function contarClics() {
+  contador++;
+  document.getElementById("quote").innerText = "Has hecho clic " + contador + " veces.";
+}
+
 
 
 
