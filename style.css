@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  background: rgba(0, 0, 0, 0.0); /* Fondo negro semitransparente */
-  padding: 60px; /* Espacio interno alrededor del contenido */
+  background: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
+  padding: 100px; /* Espacio interno alrededor del contenido */
   border-radius: 40px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
   max-width: 500px; /* No supera los 500px de ancho */
@@ -21,11 +21,11 @@ body {
 
 h1 {
   margin-bottom: 30px; /* Espacio debajo del título */
-  font-size: 35px; /* Tamaño de letra del título */
+  font-size: 60px; /* Tamaño de letra del título */
 }
 
 #quote {
-  font-size: 25px; /* Tamaño de letra de las citas */
+  font-size: 40px; /* Tamaño de letra de las citas */
   margin: 30px 0; /* Espacio arriba y abajo */
   min-height: 30px; /* Altura mínima para evitar que el cuadro cambie de tamaño cuando cambia el texto */
 }
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #FDD835; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 
