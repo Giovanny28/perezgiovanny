@@ -1,47 +1,47 @@
 body {
-  font-family: Papyrus, Papyrus; /* Fuente de texto de toda la página */
-  background: linear-gradient(135deg, #8B0000, #000000); /* Fondo degradado diagonal */
-  color: #fff; /* Color de texto blanco */
-  text-align: center; /* Centra el texto horizontalmente */
-  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
-  margin: 0; /* Quita los márgenes por defecto */
-  display: flex; /* Activa flexbox */
-  justify-content: left; /* Centra el contenido horizontalmente */
-  align-items: center; /* Centra el contenido verticalmente */
+  font-family: Papyrus, sans-serif; /* Fuente */
+  background: linear-gradient(135deg, #8B0000, #000000); /* Fondo degradado */
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
 }
 
 .container {
-  background: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
-  padding: 60px; /* Espacio interno alrededor del contenido */
-  border-radius: 40px; /* Bordes redondeados */
-  width: 80%; /* Ocupa 80% del ancho de la pantalla */
-  max-width: 500px; /* No supera los 500px de ancho */
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 60px;
+  border-radius: 40px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 }
 
 h1 {
-  margin-bottom: 30px; /* Espacio debajo del título */
-  font-size: 40px; /* Tamaño de letra del título */
+  margin-bottom: 30px;
+  font-size: 40px;
 }
 
 #quote {
-  font-size: 30px; /* Tamaño de letra de las citas */
-  margin: 20px 0; /* Espacio arriba y abajo */
-  min-height: 30px; /* Altura mínima para evitar que el cuadro cambie de tamaño cuando cambia el texto */
+  font-size: 30px;
+  margin: 20px 0;
+  min-height: 30px;
 }
 
 button {
-  background: #FFEB3B; /* Color de fondo naranja */
-  border: none; /* Sin borde */
-  padding: 12px 20px; /* Espaciado interno */
-  font-size: 18px; /* Tamaño de letra */
-  border-radius: 10px; /* Bordes redondeados */
-  cursor: pointer; /* Cambia el cursor a "mano" al pasar encima */
-  transition: 0.3s; /* Suaviza las transiciones al pasar el mouse */
+  background: #FFEB3B;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background: #FDD835; /* Color más oscuro al pasar el mouse */
+  background: #FDD835;
 }
 
 
